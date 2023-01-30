@@ -1,92 +1,80 @@
-# 2022_ifc_rg_mk_cr Em-Chirality metallic Nanowires
-
-
-
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://git.scc.kit.edu/ianmip-software/2022_ifc_rg_mk_cr-chirality-metallic-wires.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://git.scc.kit.edu/ianmip-software/2022_ifc_rg_mk_cr-chirality-metallic-wires/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
 ## License
-For open source projects, say how it is licensed.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Copyright (c) 2022, Ivan Fernandez-Corbaton, Roland Griesmaier, Marvin Knöller, Carsten Rockstuhl
+
+This software is released under GNU General Public License, Version 3.
+The full license text is provided in the file LICENSE included in this repository 
+or can be obtained from http://www.gnu.org/licenses/
+
+## Content of this project
+This is a guide to generate the figures that have been used in the work
+
+**„Maximizing the electromagnetic chirality of thin metallic nanowires at optical frequencies“**
+
+_By Ivan Fernandez-Corbaton, Roland Griesmaier, Marvin Knöller and Carsten Rockstuhl._
+
+You find all the needed Matlab files in the folders.
+
+## An overview
+- [ ] The folder **AuxiliaryScripts** includes
+    - several auxiliary files for the numerical examples 1,2,3 in the folders Ex1, Ex2, Ex3,
+    - 	_DoubleReflectionFrame_ a function that approximates a rotation minimizing frame
+    - 	_GenerateEllipticScattererNew_ a function that visualizes the 3d scatterer and further returns a .geo file if necessary.
+
+- [ ] The folder **AuxiliaryUtilities** includes
+    - two text files that include the material parameters for silver and gold
+    - _dotReal_ evaluates dot product
+    - _eval_phi_ evaluates the aim functional
+    - _geteps_gold_ gets the material parameter for gold given the wavelength
+    - _geteps_ gets the material parameter for silver given the wavelength
+    - _Tensor_Mat_Mult_ multiplies two tensors along the third dimension
+
+- [ ] The folder **ChiralityUtilities** includes
+    - _chiral_ function to evaluate the rel. chirality measure
+    - two functions that approximate the far field operator based on the leading order term of the asymptotic perturbation formula (one allows to change eps_rel in the argument)
+
+- [ ] The folder **Derivatives** includes
+    - _Der_Curvature_Constraint_ derivative of the first penalty term
+    - _Der_Seg_Pen2_ derivative of the second penalty term
+    - _DerFarFieldMatrixFunction_SplineRotationRMF_ derivative of far field operator w.r.t rotation
+    - _derive_farfieldmatrix_SplineRotationRMFFD_ derivative of far field operator w.r.t spine curve
+    - _derive_measure_ derivative of rel. chirality measure
+    - _derPnPdashbP_ derivative of the third penalty term w.r.t. spine curve
+    - _derThetanPdashbP_ derivative of the third penalty term w.r.t. rotation
+    - _DiffEntireWaveField_ derivative of the entire wave fields
+    - _eval_Gradf_ derivative of the aim functional
+
+- [ ] The folder **Penalties** includes
+    - _Curvature_Constraint_ the first penalty term
+    - _CurvePenalty_ essentially to evaluate the length of a curve
+    - _SegPen2_ the second penalty term
+    - _nPdashbP_ the third penalty term
+
+- [ ] The folder **PrecomputedResults** includes
+The results from the numerical examples 1,2,3. You get these results (except for the third one due to randomness
+by running the scripts Paper_Ex1, Paper_Ex2, Paper_Ex3. For the third numerical example, we provide in the 	folder ResultsEx3 the samples that we used in our publication. 
+In order to re-simulate these examples from scratch, please consider the remarks in the file Paper_Ex3.m
+
+- [ ] The folders **Samples*** are empty. If you run Paper_Ex3, then all the results are saved in the corresponding folders.
+- [ ] The folder **SplineUtilities** includes all routines to generate cubic splines in the way they are needed for the other programs 
+- [ ] The folder **Straights** is empty. The results from Paper_Ex1 are saved in this folder.
+
+For generating the numerical examples 1-3, run
+
+- Paper_Ex1
+- Paper_Ex2
+- Paper_Ex3
+
+**For the third example, we further provide the samples that we used in our publication. Consider the remarks in Paper_Ex3 for re-simulating them.**
+
+## Requirements and additional information
+The computations from example 1,2 have been carried out on a MacBook Pro 15“ model from 2018 
+Computations have been carried out using the Matlab 2020a version.
+Running both of these examples from scratch takes 1-2 days.
+
+The simulations in example 3 have been carried out on clusters using 32 or 64 cores.
+Computations have been carried out using the Matlab 2018a version.
+Running one simulation (e.g. Example3_400THz.m) takes 8-10 days. 
+
+The code uses parallelization from the Matlab Parallelization Toolbox.
+The code requires the Maxwell_VSH Toolbox.
