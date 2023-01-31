@@ -77,4 +77,4 @@ Computations have been carried out using the Matlab 2018a version.
 Running one simulation (e.g. Example3_400THz.m) takes 8-10 days. 
 
 The code uses parallelization from the Matlab Parallelization Toolbox.
-The code requires the Maxwell_VSH Toolbox.
+The code requires the Maxwell_VSH Toolbox (see https://git.scc.kit.edu/ianmip-software/maxwell-vsh).
